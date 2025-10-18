@@ -1,0 +1,149 @@
+/* Base styles */
+body {
+    background-color: #f9f5ff; /* soft light purple tone */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container{
+    flex: 1;
+}
+
+h3 {
+    color: #4B4453;
+}
+
+/* Navbar */
+.navbar {
+    height: 5rem;
+    background-color: white;
+}
+
+.fa-solid {
+    color: #ff385c;
+    font-size: 2rem;
+}
+
+.nav-link {
+    color: #222222 !important;
+}
+
+/* Footer */
+/* Footer */
+footer {
+    background-color: #f3f3f3;
+    padding: 1.5rem 0;
+    font-size: 0.95rem;
+    color: #444;
+    border-top: 1px solid #ddd;
+    margin-top: 2rem;
+}
+
+.f-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+.f-info-brand {
+    font-weight: 600;
+    color: #4B4453;
+}
+
+.f-info-links a {
+    text-decoration: none;
+    color: #444;
+    margin: 0 0.75rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.f-info-links a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+.f-info-socials i {
+    font-size: 1.4rem;
+    margin: 0 0.5rem;
+    color: #555;
+    transition: color 0.3s ease-in-out;
+}
+
+.f-info-socials i:hover {
+    color: #ff385c;
+}
+
+
+/* Cards */
+.listing-card {
+    border: none !important;
+    border-radius: 1rem;
+    transition: transform 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.listing-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    border-radius: 1rem !important;
+    width: 100% !important;
+    height: 16rem;
+    object-fit: cover !important;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.card-title {
+    color: #333;
+    font-weight: 600;
+}
+
+.card-text {
+    font-weight: 400;
+    font-size: 0.95rem;
+    color: #777;
+}
+
+.listing-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Optional hover overlay (if needed) */
+.card-img-overlay {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.card-img-overlay:hover {
+    opacity: 0.2;
+    background-color: white;
+}
+
+
+/* New Page */
+.add-btn{
+    background-color: #ff385c !important;
+    border: none !important;
+}
+
+/* Edit page */
+
+.edit-btn{
+    background-color: #ff385c !important;
+    border: none !important;
+}
+
+.btns{
+    display: flex;
+        
+}
